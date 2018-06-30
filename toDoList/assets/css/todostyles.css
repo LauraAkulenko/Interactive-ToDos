@@ -1,0 +1,92 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Roboto;
+	background: url(https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f53bc37ff31a9c27b92bb869ccc05a5e&auto=format&fit=crop&w=967&q=80);
+	background-size: cover;
+	background-position: center;
+}
+
+#container {
+	width: 360px;
+	margin:100px auto;
+	background: #F8F5F8;
+	box-shadow: 0 0 3px #F1EBF1;
+}
+
+h1 {
+	background: #846C85;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+	color: white;
+}
+
+input {
+	font-size: 18px;
+	background: #EAE1EB;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing:  border-box;
+	color: #C2A7C3;
+	outline: none;
+	border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus{
+	background: #fff;
+	border: 3px solid #C2A7C3;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: #F8F5F8;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+li:nth-child(2n) {
+	background: #EAE1EB;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+
+.strike {
+	color: gray;
+	text-decoration: line-through;
+}
+
+span {
+	background: #6D2C27;
+	color: white;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+.fa-plus {
+	float: right;
+}
+
+
+
+
+
+
